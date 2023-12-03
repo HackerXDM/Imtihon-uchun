@@ -1,22 +1,18 @@
 import React from 'react'
-import { NavLink, Outlet } from 'react-router-dom'
+
+//import outlet
+import { Outlet } from 'react-router-dom'
+
+//import Header, Footer
+import Header from "../components/Header"
+import Footer from '../components/Footer'
 
 const Mainlayout = () => {
   return (
     <>
-      <header> 
-        <nav>
-          <h1>My articles</h1>
-          <NavLink to='/'>Sotish</NavLink>
-          <NavLink to='/onlaynBaholash'>Onlayn Baholash</NavLink>
-          <NavLink to='/katalog'>Katalog</NavLink>
-          <NavLink to='/kompaniyaHaqida'>Kompaniya haiqda</NavLink>
-          <NavLink to='/xizmatlar'>Xizmatlar</NavLink>
-          <NavLink to='/kontakt'>Kontakt</NavLink>
-        </nav>
-      </header>
-      <main>{<Outlet/>}</main>
-      <footer></footer>
+    <Header/>
+      <main><Outlet /></main>
+    <Footer/>
     </>
   )
 }

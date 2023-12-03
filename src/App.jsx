@@ -21,11 +21,10 @@ import Mainlayout from './layout/Mainlayout'
 const App = () => {
   const routes = createBrowserRouter(
     createRoutesFromElements(
-      <Route element={<Mainlayout />}>
-        <Route path='/' element={<Sotish />} />
+      <Route path='/' element={<Mainlayout />}>
+        <Route index element={<Sotish />} />
         <Route path='/onlaynBaholash' element={<OnlaynBaholash />} />
         <Route path='/katalog' element={<Katalog />} />
-        <Route path='/kompaniyaHaqida' element={<KompaniyaHaqida />} />
         <Route path='/kompaniyaHaqida' element={<KompaniyaHaqida />} />
         <Route path='/xizmatlar' element={<Xizmatlar />} />
         <Route path='/kontakt' element={<Kontaktlar />} />
