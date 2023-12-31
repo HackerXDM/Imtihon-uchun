@@ -1,49 +1,378 @@
-// import headerLogoImg
-import MoneyLight from "../image/money-light.png"
-import BlockImg from "../image/Block.png"
-import HandTime from "../image/HandTime.png"
-
-export const HeaderLogo = [
+//import image
+import DataBirWatch from "../image/databirwatch.png"
+import DataIkkiWatch from "../image/dataikkiwatch.png"
+import DataUchWatch from "../image/datauchwatch.png"
+import DataTortWatch from "../image/datatortwatch.png"
+import DataBeshWatch from "../image/databeshwatch.png"
+import DataOltiWatch from "../image/dataoltiwatch.png"
+import DataYettiWatch from "../image/datayettiwatch.png"
+import DataSakkizWatch from "../image/datasakkizwatch.png"
+import DataToqqizWatch from "../image/datatoqqizwatch.png"
+import DataOnWatch from "../image/dataonwatch.png"
+import DataOnBirWatch from "../image/dataonbirwatch.png"
+import DataOnIkkiWatch from "../image/dataonikkiwatch.png"
+import DataOnUchWatch from "../image/dataonuchwatch.png"
+import DataOnTortWatch from "../image/dataontortwatch.png"
+import DataOnBeshWatch from "../image/dataonbeshwatch.png"
+import DataOnOltiWatch from "../image/dataonoltiwatch.png"
+import DataOnYettiWatch from "../image/dataonyettiwatch.png"
+import DataOnSakkizWatch from "../image/dataonsakkizwatch.png"
+import DataOnToqqizWatch from "../image/dataontoqqizwatch.png"
+import DataYigirmaWatch from "../image/datayigirmawatch.png"
+import DataIcon from "../image/Vektor.png"
+ const Soatlar = [
     {
         id: 1,
-        img: MoneyLight,
-        name: "Pul 2 qo`llashdan keyin soat"
+        kompany: "Versace",
+        name: "2023 unworn Datejust 41mm",
+        number: "$17,215",
+        Image: DataBirWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
 
     },
     {
+        kompany: "AUDEMARS PIGUET",
+        name: "Royal Oak",
+        number: "$ 18,390",
         id: 2,
-        img: BlockImg,
-        name: "Huquqiy tranzaktsiyaning tozaligi"
+        Image: DataIkkiWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
 
     },
     {
-        id: 2,
-        img: HandTime,
-        name: "Bilan ishlaymiz 2004 yil"
-    }
-]
-
-//image import
-import SoatSectionBirinchiPage from "../image/soatSectionBirinchiPage.png"
-import SumkaSectionBirinchiPage from "../image/sumkaSectionBirinchiPage.png"
-import Image1SectionBirinchiPage from "../image/imagebirinchisectionpage.png"
-import Image2SectionBirinchiPage from "../image/imageikkinchisectionpage.png"
-
-//One/Page/Section/Data
-export const toveryHero = [
-    {
-        id: 1,
-        img: SoatSectionBirinchiPage,
-        name:"Soat",
-    },
-    {
-        id: 2,
-        img: SumkaSectionBirinchiPage,
-        name:"Aksesuarlar",
-    },
-    {
+        kompany: "VersaceT",
+        name: "V-Code 42mm",
+        number: "$933",
         id: 3,
-        img: Image1SectionBirinchiPage,
-        name: "Bezak",
-    }
+        Image: DataUchWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Omega",
+        name: "unworn Seamaster Co-Axial 42mm",
+        number: "$4,703",
+        id: 4,
+        Image: DataTortWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Frederique Constant",
+        name: "Highlife Chronograph Automatic 39mm",
+        number: "$4,446",
+        id: 5,
+        Image: DataBeshWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Rolex",
+        name: "2023 unworn Datejust 31mm",
+        number: "$19,159",
+        id: 6,
+        Image: DataOltiWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Rolex",
+        name: "2023 unworn Sea-Dweller Deepsea 44mm",
+        number: "$20,273",
+        id: 7,
+        Image: DataYettiWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Hublot",
+        name: "Big Bang Unico 44mm",
+        number: "$17,429",
+        id: 8,
+        Image: DataSakkizWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Omega",
+        name: "2023 unworn Seamaster Planet Ocean 600M 45.5mm",
+        number: "$7,657",
+        id: 9,
+        Image: DataToqqizWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Cartier",
+        name: "2023 unworn Santos 35mm",
+        number: "$7,002",
+        id: 10,
+        Image: DataOnWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+
+    },
+    {
+        kompany: "Maurice Lacroix",
+        name: "Rétrograde watch",
+        number: "$7,246",
+        id: 11,
+        Image: DataOnBirWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To`plam",
+    },
+    {
+        kompany: "Locman Italy",
+        name: "Montecristo 43mm",
+        number: "$5,541",
+        id: 12,
+        Image: DataOnIkkiWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam:"To`plam",
+
+    },
+    {
+        kompany: "Versace",
+        name: "2023 unworn Datejust 41mm",
+        number: "$17,215",
+        id: 13,
+        Image: DataOnUchWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam:"To'plam",  
+    },
+    {
+        kompany: "AUDEMARS PIGUET",
+        name: "Royal Oak",
+        number: "$ 18,390",
+        id: 14,
+        Image: DataOnTortWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam:"To'plam",   
+    },
+    {
+        kompany: "Versace",
+        name: "V-Code 42mm",
+        number: "$933",
+        id: 15,
+        Image: DataOnBeshWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam:"To'plam",    
+    },
+    {
+        kompany: "Omega",
+        name: "unworn Seamaster Co-Axial 42mm",
+        number: "$4,703",
+        id: 16,
+        Image: DataOnOltiWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam:"To'plam",    
+    },
+    {
+        kompany: "Frederique Constant",
+        name: "Highlife Chronograph Automatic 39mm",
+        number: "$4,446",
+        id: 17,
+        Image: DataOnYettiWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam:"To'plam",   
+     },
+    {
+        kompany: "Rolex",
+        name: "2023 unworn Datejust 31mm",
+        number: "$19,159",
+        id: 18,
+        Image: DataOnSakkizWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam:"To'plam",   
+     },
+    {
+        kompany: "Rolex",
+        name: "2023 unworn Sea-Dweller Deepsea 44mm",
+        number: "$20,273",
+        id: 19,
+        Image: DataOnToqqizWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To'plam",
+    },
+    {
+        kompany: "Hublot",
+        name: "Big Bang Unico 44mm",
+        number: "$17,429",
+        id: 20,
+        Image: DataYigirmaWatch,
+        icon: DataIcon,
+        Brend:"Brend",
+        Rolex:"Rolex",
+        Davlat:"Davlat",
+        Yangi:"Yangi",
+        Qavat:"Qavat",
+        Ayollar:"Ayollar",
+        Ramka:"Ramka",
+        tuxumsimon:"tuxumsimon",
+        Toplam: "To'plam",
+        
+    },
 ]
+
+export default Soatlar
