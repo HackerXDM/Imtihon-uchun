@@ -89,17 +89,35 @@ const Header = () => {
     setShowDropdown4(false);
   };
 
-  
+
   const handleOpen = () => setOpen((cur) => !cur);
 
-
+  const handleSubmit = (event) => {
+    event.preventDefault(); // Prevents the default form submission behavior
+    
+    // Add logic to collect form data, perform validation, and submit if valid
+    const email = document.getElementById('email').value; // Get the email input value
+    const password = document.getElementById('password').value; // Get the password input value
+    
+    // Perform validation or make API requests here
+    
+    // For example, you can log the values for now:
+    console.log('Email:', email);
+    console.log('Password:', password);
+    
+    // Clear inputs or perform further actions as needed
+    
+    // Close the dialog or reset the form
+    handleOpen(); // Close the dialog
+  };
+  
   return (
     <header>
       <div>
         <ToastContainer />
       </div>
       <div className={`${styles.container}`}>
-        <form>
+        <form onSubmit={handleSubmit}>
           <Dialog
             size="xs"
             open={open}
@@ -141,7 +159,10 @@ const Header = () => {
               </CardBody>
               <CardFooter className="pt-0">
                 <Button
-                  onClick={notify}
+                 onClick={() => {
+                    notify();
+                    handleOpen();
+                  }}
                   type="submit"
                   variant="gradient"
                   fullWidth
@@ -193,8 +214,9 @@ const Header = () => {
                 <PhoneOutlined />
               </a>
               <button
+               onClick={handleOpen}
+                type="submit"
                 className="px-4 py-2 border-2 border-black font-bold uppercase font-sans text-sm inline-block"
-                onClick={handleOpen}
               >
                 Qo'ng'iroq qiling
               </button>
@@ -263,7 +285,7 @@ const Header = () => {
                         className={" w-full  hover:text-black"}
                         to="/onlayn_baholash/onlayn_kuz_soatlari"
                       >
-                      Onlayn kuz soatlari
+                        Onlayn kuz soatlari
                       </NavLink>
                     </li>
                     <li className="text-lg font-serif">
@@ -307,7 +329,7 @@ const Header = () => {
                         className={" w-full hover:text-black"}
                         to="/kompaniya_haqida/yetkazib_berish_va_kafolat"
                       >
-                      yetkazib berish va kafolat
+                        yetkazib berish va kafolat
                       </NavLink>
                     </li>
                   </ul>
@@ -315,20 +337,20 @@ const Header = () => {
               </li>
 
               {/* Dropdown-5 */}
-                <NavLink className="hover:text-green-400 uppercase" to="/xizmatlar">
-                  Xizmatlar
-                </NavLink>
+              <NavLink className="hover:text-green-400 uppercase" to="/xizmatlar">
+                Xizmatlar
+              </NavLink>
 
 
               {/* Dropdown-6 */}
-                <NavLink className="hover:text-green-400 uppercase" to="/kontakt">
-                  Kontaktlar
-                </NavLink>
-                {/* Dropdown */}
-                  <ul className="flex flex-col w-44 py-3 space-y-4">
-                    {" "}
-                    {/* Flex klasiga ega bo'lgan ul */}
-                  </ul>
+              <NavLink className="hover:text-green-400 uppercase" to="/kontakt">
+                Kontaktlar
+              </NavLink>
+              {/* Dropdown */}
+              <ul className="flex flex-col w-44 py-3 space-y-4">
+                {" "}
+                {/* Flex klasiga ega bo'lgan ul */}
+              </ul>
             </ul>
           </nav>
         </div>

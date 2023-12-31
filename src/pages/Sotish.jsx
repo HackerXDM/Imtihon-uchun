@@ -1,4 +1,19 @@
-import React from 'react'
+// Swipper import
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+import '../styles.css';
+
+// import required modules
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+
+
 
 //import Image
 import TimerImg from "../image/Timer_Img.svg"
@@ -23,11 +38,12 @@ import OtaRasm from "../image/Ota.svg"
 //import syles
 import { styles } from "../styles"
 
+
 const Sotish = () => {
   return (
     <>
     {/* Header */}
-    <header className="bg-gray-300 py-5">
+    {/* <header className="bg-gray-300 py-5">
         <div>
           <div className='flex justify-between'>
             <div className={`${styles.HeaderContainer}`} >
@@ -56,10 +72,31 @@ const Sotish = () => {
             </div>
           </div>
         </div>
-      </header>
-
-            
-          
+      </header> */}
+          {/* SWIPPER   */}
+      <Swiper
+        spaceBetween={30}
+        centeredSlides={true}
+        autoplay={{
+          delay: 2500,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          clickable: true,
+        }}
+        navigation={true}
+        modules={[Autoplay, Pagination, Navigation]}
+        className="mySwiper"
+      >
+        <SwiperSlide className='text-center '>
+          <h2>Выкупаем бренды</h2>
+          <p>Rolex  Aerowatch A.Lange & Sohne Alpina Apple Watch Armand Nicolet Armin Strom Arnold & Son Artya Audemars Piguet Ball  Baume Mercier Bell Ross Blancpain</p>
+        </SwiperSlide>
+        <SwiperSlide className='text-center max-w-xl'>
+          <h2 className='text-2xl'>Выкупаем бренды</h2>
+          <p>Rolex  Aerowatch A.Lange & Sohne Alpina Apple Watch Armand Nicolet Armin Strom Arnold & Son Artya Audemars Piguet Ball  Baume Mercier Bell Ross Blancpain</p>
+        </SwiperSlide>
+      </Swiper>
 
 
       {/* Hero   */}
@@ -208,7 +245,7 @@ const Sotish = () => {
       </main>
 
 {/* Swipper-wrapper */}
-<div className="swipper-wrapper my-60 bg-blue-gray-50 h-96">
+<div className="swipper-wrapper my-60 bg-blue-gray-50 h-min pb-44 ">
     <div className={`${styles.HeaderContainer}`} >
       <div className=' flex justify-between items-center p-10'>
     <h2 className='text-2xl font-semibold font-serif'>Mijozlarimizning  sharhlari</h2>
@@ -216,50 +253,61 @@ const Sotish = () => {
       </div>
 <div className='flex space-x-5'>
   {/* 1-kard */}
-      <div className='bg-white w-60 h-56 rounded-md py-10'>
-      <h3 className='p-5 text-center'>“I love creating new think every single days so let’s do it 
-        together it was wonderful to work with you.”</h3>
-         <div className='flex items-center space-x-2 p-5'>
-        <img src={OtaRasm} alt="Image" />
-        <p className='text-blue-gray-500 font-bold'>-Taro Zizo</p>
-         </div>
-      </div>
+  <div className="bg-white  rounded-md py-10">
+          <h3 className="p-5 text-center">
+            “I love creating new think every single days so let’s do it together
+            it was wonderful to work with you.”
+          </h3>
+          <div className="flex items-center space-x-4 p-5">
+            <img src={OtaRasm} alt="Image" />
+            <p className="text-blue-gray-500 font-bold after:w-2 after:h-0.5 after:bg-blue-gray-500 after:absolute relative flex justify-center items-center after:-left-2.5">Taro Zizo</p>
+          </div>
+        </div>
+
  {/* 2-kard */}
- <div className='bg-white w-60 h-56 rounded-md py-10'>
-      <h3 className='p-5 text-center'>“I love creating new think every single days so let’s do it 
-        together it was wonderful to work with you.”</h3>
-         <div className='flex items-center space-x-2 p-5'>
-        <img src={OtaRasm} alt="Image" />
-        <p className='text-blue-gray-500 font-bold'>-Taro Zizo</p>
-         </div>
-      </div>
+ <div className="bg-white  rounded-md py-10">
+          <h3 className="p-5 text-center">
+            “I love creating new think every single days so let’s do it together
+            it was wonderful to work with you.”
+          </h3>
+          <div className="flex items-center space-x-4 p-5">
+            <img src={OtaRasm} alt="Image" />
+            <p className="text-blue-gray-500 font-bold after:w-2 after:h-0.5 after:bg-blue-gray-500 after:absolute relative flex justify-center items-center after:-left-2.5">Taro Zizo</p>
+          </div>
+        </div>
       {/* 3-kard */}
-      <div className='bg-white w-60 h-56 rounded-md py-10'>
-      <h3 className='p-5 text-center'>“I love creating new think every single days so let’s do it 
-        together it was wonderful to work with you.”</h3>
-         <div className='flex items-center space-x-2 p-5'>
-        <img src={OtaRasm} alt="Image" />
-        <p className='text-blue-gray-500 font-bold'>-Taro Zizo</p>
-         </div>
-      </div>
+      <div className="bg-white  rounded-md py-10">
+          <h3 className="p-5 text-center">
+            “I love creating new think every single days so let’s do it together
+            it was wonderful to work with you.”
+          </h3>
+          <div className="flex items-center space-x-4 p-5">
+            <img src={OtaRasm} alt="Image" />
+            <p className="text-blue-gray-500 font-bold after:w-2 after:h-0.5 after:bg-blue-gray-500 after:absolute relative flex justify-center items-center after:-left-2.5">Taro Zizo</p>
+          </div>
+        </div>
       {/* 4-kard */}
-      <div className='bg-white w-60 h-56 rounded-md py-10'>
-      <h3 className='p-5 text-center'>“I love creating new think every single days so let’s do it 
-        together it was wonderful to work with you.”</h3>
-         <div className='flex items-center space-x-2 p-5'>
-        <img src={OtaRasm} alt="Image" />
-        <p className='text-blue-gray-500 font-bold'>-Taro Zizo</p>
-         </div>
-      </div>
+      <div className="bg-white  rounded-md py-10">
+          <h3 className="p-5 text-center">
+            “I love creating new think every single days so let’s do it together
+            it was wonderful to work with you.”
+          </h3>
+          <div className="flex items-center space-x-4 p-5">
+            <img src={OtaRasm} alt="Image" />
+            <p className="text-blue-gray-500 font-bold after:w-2 after:h-0.5 after:bg-blue-gray-500 after:absolute relative flex justify-center items-center after:-left-2.5">Taro Zizo</p>
+          </div>
+        </div>
       {/* 5-kard */}
-      <div className='bg-white w-60 h-56 rounded-md py-10'>
-      <h3 className='p-5 text-center'>“I love creating new think every single days so let’s do it 
-        together it was wonderful to work with you.”</h3>
-         <div className='flex items-center space-x-2 p-5'>
-        <img src={OtaRasm} alt="Image" />
-        <p className='text-blue-gray-500 font-bold'>-Taro Zizo</p>
-         </div>
-      </div>
+      <div className="bg-white  rounded-md py-10">
+          <h3 className="p-5 text-center">
+            “I love creating new think every single days so let’s do it together
+            it was wonderful to work with you.”
+          </h3>
+          <div className="flex items-center space-x-4 p-5">
+            <img src={OtaRasm} alt="Image" />
+            <p className="text-blue-gray-500 font-bold after:w-2 after:h-0.5 after:bg-blue-gray-500 after:absolute relative flex justify-center items-center after:-left-2.5">Taro Zizo</p>
+          </div>
+        </div>
 </div>
     </div>
 </div>
