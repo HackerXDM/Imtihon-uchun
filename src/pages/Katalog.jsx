@@ -17,7 +17,7 @@ const Katalog = () => {
                 <li className='border p-4' key={index}>
                   <Link to={`/katalog/${Data.id}`}>
                   <img src={Data.icon} alt="rate" />
-                    < img src={Data.Image} className=" h-[270px] w-[200px] p-5 ml-5"
+                    < img src={Data.Image} className=" h-[270px] w-[210px] p-5 ml-5"
                       alt={Data.kompany}
                   />
                   <div className="flex justify-between items-center">
