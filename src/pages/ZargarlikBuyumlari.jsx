@@ -113,11 +113,23 @@ const ZargarlikBuyumlari = () => {
             <p className='text-base'>Zargarlik buyumlarini tez, qonuniy va qulay narxda sotishning muqobil usuli bormi?</p>
           </div>
           <div>
-            <ul>
-              <li>Birinchi element</li>
-              <li>Ikkinchi element</li>
-              <li>Uchinchi element</li>
-            </ul>
+            <div>
+            <h3 className='text-[33px] py-5 font-serif'>Zargarlik buyumlarini tezda sotib olish</h3>
+            <li className='w-[500px] font-serif text-lg'>Zargarlik lombardi "Taymer" Moskva va Moskva viloyatida oltin va kumush 585, 750, 850, 999 zargarlik buyumlarini tezda sotib olishni taklif qiladi.</li>
+            <li className='w-[500px] font-serif text-lg'>Biz to'liq qonuniy va Rossiya Federatsiyasi qonunchiligiga muvofiq ishlaymiz va bitimlar zargarlik buyumlarini sotib olish bo'yicha qabul qilingan qoidalar doirasida tuziladi.</li>
+            </div>
+            <div>
+              <h3 className='pb-2 pt-7 text-2xl'>Biz sizdan sotib olishga tayyormiz:</h3>
+              <li>Uzuklar</li>
+              <li>Bilakuzuklar (Cartier, Baraka, Nialaya, tabiiy tosh, erkaklar va ayollar);</li>
+              <li>Broshlar;</li>
+              <li>Запонки - De Grisogono (Грисогоно), Dupont (Дюпонт), Cartier (Картье), Chaumet (Шомэ), Chopard (Шопард), Patek Philippe (Патек Филип), Vacheron Constantin (Вашерон), Rolex (Ролекс), Montegrappa (Монтеграппа) va boshq.;</li>
+              <li>Zajigalkalar (Montegrappa, Waterman, Montblanc, Cartier);</li>
+              <li>Qalamlar (Montegrappa, Waterman, Mont Blanc, Cartier va boshqalar);</li>
+              <li>zargarlik soatlari modellari;</li>
+              <li>Tiaralar, marjonlarni;</li>
+              <li>Olmoslar.</li>
+            </div>
           </div>
           <div>
             <img src={Rasm} alt="Rasm" />
@@ -127,41 +139,121 @@ const ZargarlikBuyumlari = () => {
       </main>
       <section className={`${styles.HeaderContainer}`}>
         <div>
-          <h2 className='text-center'>Biz sotib olishni taklif qilamiz:</h2>
-          <div className='grid grid-cols-3'>
-            <div>
+          <h2 className='text-center pb-5 pt-24 text-3xl'>Biz sotib olishni taklif qilamiz:</h2>
+          <div className='grid grid-cols-3 p-5   justify-center'>
+              {/* kard-1 */}
+            <div className='flex items-center bg-gray-100 space-x-5 px-2 '>
+              <div>
               <img src={RasmIkki} alt="RasmIkki" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Uzuklar</h3>
+                <p>Erkaklar va ayollar uchun</p>
+              </div>
             </div>
-            <div>
+            {/* kard-2 */}
+            <div className='flex items-center space-x-5 px-3 p-5 '>
+              <div>
               <img src={RasmUch} alt="RasmUch" />
+              </div>
+              <div>
+            <h3 className='text-xl my-2 font-bold'>Broshlar</h3>
+            <p>Tabiiy toshdan yasalgan</p>
+              </div>
             </div>
-            <div>
+
+            {/* kard-3 */}
+            <div className='flex items-center space-x-5 px-3 p-5 bg-gray-200'>
+              <div>
               <img src={RasmTort} alt="RasmTort" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Zargarlik modellari</h3>
+                <h3>soat</h3>
+              </div>
             </div>
-            <div>
+
+            {/* kard-4 */}
+            <div className='flex items-center space-x-5 px-3 p-5 '>
+              <div>
               <img src={RasmBesh} alt="RasmBesh" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Zanjirlar</h3>
+                <p>Erkaklar va ayollar uchun</p>
+              </div>
             </div>
-            <div>
+
+            {/* kard-5 */}
+            <div className='flex items-center space-x-5 px-3 p-5 bg-gray-200'>
+              <div>
               <img src={RasmOlti} alt="RasmOlti" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Qo'l tugmalari</h3>
+                <p>Zargarlik buyumlari. Tabiiy toshdan yasalgan</p>
+              </div>
             </div>
-            <div>
+
+            {/* kard-6 */}
+            <div className='flex items-center space-x-5 px-3 p-5 '>
+              <div>
               <img src={RasmYetti} alt="RasmYetti" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Tiaralar, marjonlarni</h3>
+                <p>Tabiiy toshdan yasalgan</p>
+              </div>
             </div>
-            <div>
+
+            {/* kard-7 */}
+            <div className='flex items-center space-x-5 px-3 p-5 bg-gray-200'>
+              <div>
               <img src={RasmSakkiz} alt="RasmSakkiz" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Bilakuzuklar</h3>
+                <p>Erkaklar va ayollar uchun tabiiy tosh</p>
+              </div>
             </div>
-            <div>
+
+            {/* kard-8 */}
+            <div className='flex items-center space-x-5 px-3 p-5 '>
+              <div>
               <img src={RasmToqqiz} alt="RasmToqqiz" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Zajigalkalar</h3>
+                <p>Mashhur brendlar</p>
+              </div>
             </div>
-            <div>
-              <img src={RasmOn} alt="RasmOn" />
+
+            {/* kard-9 */}
+            <div className='flex items-center space-x-12 px-3 p-5 bg-gray-200'>
+              <div>
+              <img className='ml-3' src={RasmOn} alt="RasmOn" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Olmoslar</h3>
+                <p>Va qimmatbaho toshlar bilan mahsulotlar</p>
+              </div>
             </div>
-            <div className='ml-[70%]'>
+
+
+            {/* kard-10 */}
+            <div className='flex items-center p-5 space-x-5 bg-gray-200  grid-span-3 self-center'>
+              <div>
               <img src={RasmOnBir} alt="RasmOnBir" />
+              </div>
+              <div>
+                <h3 className='text-xl my-2 font-bold'>Qalamlar</h3>
+                <p>Qimmatbaho metallar yoki toshlar bilan bezatilgan</p>
+              </div>
             </div>
           </div>
         </div>
       </section>
+
     </>
   )
 }

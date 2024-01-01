@@ -13,7 +13,8 @@ import TimerHand from "../image/TimerHand.png"
 import Block from "../image/Block.png"
 import MoneyLight from "../image/money-light.png"
 import BigHandTimer from "../image/BighandTimer.png"
-import BrotherImage from "../image/BrotherImage.png"
+import SearchImg from "../image/iconSearch.svg"
+import IconArrow from "../image/iconArrow.svg"
 
 //import material tailwind
 import Breadcrumbs from '@mui/material/Breadcrumbs';
@@ -27,11 +28,11 @@ const KompaniyaHaqida = () => {
     <>
       <header>
         {/* Breadcrumbs */}
-        <div className='w-full max-w-7xl px-5 mx-auto'>
+        <div className='w-full max-w-7xl px-5 mx-auto pb-5'>
           <div className='flex items-center space-x-3 '>
             <NavLink to="/" className="text-gray-600 font-semibold">Glavnaya</NavLink>
             <img style={{ width: '5px', height: '5px' }} src={Nuqta} alt="nuqtaImage" />
-            <NavLink className="text-gray-600 font-semibold" to="/sotish/shveytsariya_soatlari">
+            <NavLink className="text-gray-600 font-semibold" to="/sotish">
               Sotish
             </NavLink>
             <img style={{ width: '5px', height: '5px' }} src={Nuqta} alt="nuqtaImage" />
@@ -90,58 +91,58 @@ const KompaniyaHaqida = () => {
 
       {/* Grid and Image */}
       <section>
-    <div className={`${styles.HeaderContainer}`}>
-      <h2 className='text-center pb-5 pt-20 text-[42px] font-base font-serif'>Nima uchun biz bilan ishlashga arziydi?</h2>
-      <ul className="grid grid-cols-3  p-5 leading-6 font-serif">
-          {/* card-1 */}
-          <li>
-            <div>
-              <img src={GreenTime} alt="ImageTime" />
-            </div>
-          </li>
-          {/* card-2 */}
-          <li className='text-center pt-5 p-3'>
-            <img className='ml-[45%] py-5' src={HandTime} alt="HandTime" />
-            <span className=' text-3xl font-mono'>Yuqori to'lov narxlari</span>
-            <br /> 
-            <span className='text-base '>Siz yangi soat narxining 90% gacha olasiz.
-              Biz darhol naqd pul to'laymiz</span>
-          </li>
-          {/* card-3 */}
-          <li>
-            <img src={TimerHand} alt="TimerHand" />
-          </li>
-          {/* card-4 */}
-          <li className='text-center'>
-            <img className='ml-[45%] pt-10' src={Block} alt="BlockImage" />
-            <span className='text-3xl font-mono py-4 inline-block'>Maxfiylik</span>
-            <br />
-            <span>Chronoland-dagi barcha tranzaktsiyalar anonim ekanligiga
-              amin bo'lishingiz mumkin. Biz barcha tranzaksiya ma'lumotlarining
-              to'liq xavfsizligini kafolatlaymiz</span>
-          </li>
-          {/* card-5 */}
-          <li className='text-center py-10 bg-black text-white '>
-            <span className='text-2xl'>Bilan ishlaymiz<br /> brendlari</span>
-            <br />
-            <span className='py-4 inline-block'>ROLEX, AUDEMARS PIGUET, PATEKPHILLIPE,
-              A.LANGE & SOHNE,BLANCPAIN, BREGUET, CARTIER,CHOPARD,
-              CORUM, FRANCK MULLER,GIRARD PERREGAUX, GRAHAM, IWC,JAEGER-LECOULTRE,
-              RICHARD MILLE,VACHERON CONSTANTIN, HUBLOT,GREUBEL FORSEY</span>
-            <br />
-            <span className='underline underline-offset-4'>Hammasini ko'rish</span>
-          </li>
-          {/* card-6 */}
-          <li className='text-center py-10'>
-            <img className='ml-[45%] pb-5' src={MoneyLight} alt="BlockImage" />
-            <span className='text-3xl'>Pull allaqachon berilgan <br /> qo`llashdan 2soat avval</span>
-            <br />
-            <p className='pt-2'>Atigi 5 daqiqadan so'ng biz bepul baholashni o'tkazamiz va sizga oladigan narxni aytamiz.</p>
-            <br />
-            <p>Biz ko'plab hujjatlarni to'ldirishimiz va tasdiqlovchi hujjatlarni taqdim etishimiz kerak</p>
-          </li>
-        </ul>
-    </div>
+        <div className={`${styles.HeaderContainer}`}>
+          <h2 className='text-center pb-5 pt-20 text-[42px] font-base font-serif'>Nima uchun biz bilan ishlashga arziydi?</h2>
+          <ul className="grid grid-cols-3  p-5 leading-6 font-serif">
+            {/* card-1 */}
+            <li>
+              <div>
+                <img src={GreenTime} alt="ImageTime" />
+              </div>
+            </li>
+            {/* card-2 */}
+            <li className='text-center pt-5 p-3'>
+              <img className='ml-[45%] py-5' src={HandTime} alt="HandTime" />
+              <span className=' text-3xl font-mono'>Yuqori to'lov narxlari</span>
+              <br />
+              <span className='text-base '>Siz yangi soat narxining 90% gacha olasiz.
+                Biz darhol naqd pul to'laymiz</span>
+            </li>
+            {/* card-3 */}
+            <li>
+              <img src={TimerHand} alt="TimerHand" />
+            </li>
+            {/* card-4 */}
+            <li className='text-center'>
+              <img className='ml-[45%] pt-10' src={Block} alt="BlockImage" />
+              <span className='text-3xl font-mono py-4 inline-block'>Maxfiylik</span>
+              <br />
+              <span>Chronoland-dagi barcha tranzaktsiyalar anonim ekanligiga
+                amin bo'lishingiz mumkin. Biz barcha tranzaksiya ma'lumotlarining
+                to'liq xavfsizligini kafolatlaymiz</span>
+            </li>
+            {/* card-5 */}
+            <li className='text-center py-10 bg-black text-white '>
+              <span className='text-2xl'>Bilan ishlaymiz<br /> brendlari</span>
+              <br />
+              <span className='py-4 inline-block'>ROLEX, AUDEMARS PIGUET, PATEKPHILLIPE,
+                A.LANGE & SOHNE,BLANCPAIN, BREGUET, CARTIER,CHOPARD,
+                CORUM, FRANCK MULLER,GIRARD PERREGAUX, GRAHAM, IWC,JAEGER-LECOULTRE,
+                RICHARD MILLE,VACHERON CONSTANTIN, HUBLOT,GREUBEL FORSEY</span>
+              <br />
+              <span className='underline underline-offset-4'>Hammasini ko'rish</span>
+            </li>
+            {/* card-6 */}
+            <li className='text-center py-10'>
+              <img className='ml-[45%] pb-5' src={MoneyLight} alt="BlockImage" />
+              <span className='text-3xl'>Pull allaqachon berilgan <br /> qo`llashdan 2soat avval</span>
+              <br />
+              <p className='pt-2'>Atigi 5 daqiqadan so'ng biz bepul baholashni o'tkazamiz va sizga oladigan narxni aytamiz.</p>
+              <br />
+              <p>Biz ko'plab hujjatlarni to'ldirishimiz va tasdiqlovchi hujjatlarni taqdim etishimiz kerak</p>
+            </li>
+          </ul>
+        </div>
       </section>
 
       <main className={`${styles.HeaderContainer}`}>
@@ -180,6 +181,19 @@ const KompaniyaHaqida = () => {
         {/* BigImage */}
         <div className="image">
           <img src={BigHandTimer} alt="TimerImage" />
+        </div>
+
+        {/* Search */}
+        <div>
+          <div>
+            <div className='flex py-10'>
+              <img className='bg-black p-3 px-4 cursor-pointer' src={SearchImg} alt="SearchImg" />
+              <div className='flex'>
+                <input type="text" className='  border border-black p-2  w-[1150px]  focus:outline-none focus:border-blue-500' placeholder='Katalogni qidirish' />
+              </div>
+              <img className='cursor-pointer py-2 px-3' src={IconArrow} alt="iconArrow" />
+            </div>
+          </div>
         </div>
       </main>
     </>
