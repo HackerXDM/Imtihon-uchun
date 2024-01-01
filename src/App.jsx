@@ -24,7 +24,7 @@ import Telefon from "./pages/Telefon"
 import OnlaynKuzSoatlari from "./pages/OnlaynKuzSoatlari"
 import ZargarlikBuyumlari from "./pages/ZargarlikBuyumlari"
 import ShveytsariyaSoatlari from './pages/ShveytsariyaSoatlari'
-import Index from './Index'
+import Index from './Home'
 
 
 const App = () => {
@@ -32,7 +32,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path='/' element={<Mainlayout />}>
         <Route index element={<Index/>} />
-        <Route path='/sotish/shveytsariya_soatlari' element={<Sotish />} />
+        <Route path='/sotish' element={<Sotish />} />
         <Route path='/onlaynBaholash' element={<OnlaynBaholash />} />
         <Route path='/katalog' element={<Katalog />} />
         <Route path='/kompaniya_haqida/yetkazib_berish_va_kafolat' element={<YetkazibBerishVaKafolat/>} />

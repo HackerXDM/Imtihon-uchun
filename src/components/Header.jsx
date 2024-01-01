@@ -231,7 +231,7 @@ const Header = () => {
                 onMouseLeave={handleMouseLeave}
                 className="relative  inline-block"
               >
-                <NavLink className="hover:text-green-400 uppercase" to="/sotish/shveytsariya_soatlari">
+                <NavLink className="hover:text-green-400 uppercase" to="/sotish">
                   Sotish
                 </NavLink>
                 {/* Dropdown */}
