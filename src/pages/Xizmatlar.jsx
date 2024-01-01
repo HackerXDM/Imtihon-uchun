@@ -1,8 +1,18 @@
 import React from 'react'
+import { NFTCard } from "components/card/NftCard";
 
 const Xizmatlar = () => {
   return (
     <>
+     <NFTCard
+      title="ETH AI Brain"
+      author="Nick Wilson"
+      bidders={["/img/avatar2.png", "/img/avatar3.png", "/img/avatar4.png"]}
+      image="/img/Nft1.png"
+      currentBid="0.91 ETH"
+      download="#"
+      extra="max-w-[370px]"
+    />;
     <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
   <div class="md:flex">
     <div class="md:shrink-0">

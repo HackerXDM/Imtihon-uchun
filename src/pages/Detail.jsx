@@ -2,6 +2,8 @@ import React from 'react'
 import { Link, useParams } from 'react-router-dom'
 import Data from '/src/data/Data.js';
 
+
+
 const Detail = () => {
   const { id } = useParams()   
   const foundProduct = Data.find(e => e.id == id)

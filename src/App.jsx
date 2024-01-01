@@ -21,7 +21,6 @@ import Detail from "./pages/Detail"
 import Bag from "./pages/Bag"
 import OnlaynKuzAksessuarlari from "./pages/OnlaynKuzAksessuarlari"
 import Telefon from "./pages/Telefon"
-import OnlaynKuzSoatlari from "./pages/OnlaynKuzSoatlari"
 import ZargarlikBuyumlari from "./pages/ZargarlikBuyumlari"
 import ShveytsariyaSoatlari from './pages/ShveytsariyaSoatlari'
 import Index from './Home'
@@ -33,7 +32,7 @@ const App = () => {
       <Route path='/' element={<Mainlayout />}>
         <Route index element={<Index/>} />
         <Route path='/sotish' element={<Sotish />} />
-        <Route path='/onlaynBaholash' element={<OnlaynBaholash />} />
+        <Route path='/Onlayn_Baholash/onlayn_kuz_soatlari' element={<OnlaynBaholash />} />
         <Route path='/katalog' element={<Katalog />} />
         <Route path='/kompaniya_haqida/yetkazib_berish_va_kafolat' element={<YetkazibBerishVaKafolat/>} />
         <Route path='/kompaniya_haqida' element={<KompaniyaHaqida />} />
@@ -43,7 +42,6 @@ const App = () => {
         <Route path='/katalog/:id/' element={<Detail/>} />
         <Route path='/sotish/sumkalar' element={<Bag/>} />
         <Route path='/sotish/telefon' element={<Telefon/>} />
-        <Route path='/onlayn_baholash/onlayn_kuz_soatlari' element={<OnlaynKuzSoatlari/>} />
         <Route path='/sotish/zargarlik_buyumlari' element={<ZargarlikBuyumlari/>} />
         <Route path='/sotish/shveytsariya_soatlari/Brendni_sotib_olish' element={<ShveytsariyaSoatlari/>} />
       </Route>

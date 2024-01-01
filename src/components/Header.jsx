@@ -270,7 +270,7 @@ const Header = () => {
                 onMouseLeave={handleMouseLeave2}
                 className="relative"
               >
-                <NavLink className="hover:text-green-400 uppercase " to="/onlaynBaholash">
+                <NavLink className="hover:text-green-400 uppercase " to="/Onlayn_Baholash/onlayn_kuz_soatlari">
                   Onlayn baholash
                 </NavLink>
                 <div
@@ -280,14 +280,6 @@ const Header = () => {
                   <ul className="flex flex-col w-56 py-3 space-y-4">
                     {" "}
                     {/* Flex klasiga ega bo'lgan ul */}
-                    <li className="text-lg font-serif">
-                      <NavLink
-                        className={" w-full  hover:text-black"}
-                        to="/onlayn_baholash/onlayn_kuz_soatlari"
-                      >
-                        Onlayn kuz soatlari
-                      </NavLink>
-                    </li>
                     <li className="text-lg font-serif">
                       <NavLink to="/onlayn_baholash/onlayn_kuz_aksessuarlari">Onlayn kuz aksessuarlari</NavLink>
                     </li>
