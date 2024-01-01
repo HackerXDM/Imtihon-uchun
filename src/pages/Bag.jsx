@@ -83,7 +83,7 @@ const Bag = () => {
       <section class="flex justify-center ">
         <div class="flex py-10 space-x-52">
           {/* <!-- 1-div --> */}
-          <div class="flex items-center">
+          <div class="flex items-center space-x-3">
             <div>
               <img src={Block} alt="Block" />
             </div>
@@ -93,7 +93,7 @@ const Bag = () => {
             </div>
           </div>
           {/* <!-- 2-div --> */}
-          <div class="flex items-center">
+          <div class="flex items-center space-x-3">
             <div>
               <img src={HandTime} alt="Block" />
             </div>
@@ -103,7 +103,7 @@ const Bag = () => {
             </div>
           </div>
           {/* <!-- 3-div --> */}
-          <div class="flex items-center">
+          <div class="flex items-center space-x-3">
             <div>
               <img src={MoneyLight} alt="Block" />
             </div>
