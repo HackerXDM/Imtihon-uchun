@@ -33,7 +33,7 @@ const ZargarlikBuyumlari = () => {
             <img src={RectangleImg} alt="RectangleImg" />
           </div>
           <div>
-            <div className='flex items-center space-x-3 pt-[10%]'>
+            <div className='flex items-center w-[400px] space-x-3 pt-[10%]'>
               <NavLink to="/" className="text-gray-600 font-semibold">Glavnaya</NavLink>
               <img style={{ width: '5px', height: '5px' }} src={Nuqta} alt="nuqtaImage" />
               <NavLink className="text-gray-600 font-semibold" to="/sotish/shveytsariya_soatlari">
@@ -43,18 +43,18 @@ const ZargarlikBuyumlari = () => {
               <NavLink to="/sotish/shveytsariya_soatlari/Brendni_sotib_olish" className='text-black font-semibold'>Shveytsariya soatlari</NavLink>
             </div>
             <p className='text-5xl max-w-lg py-10'>30 daqiqada naqd pul oling</p>
-            <div className='flex items-center space-x-2'>
+            <div className='flex items-center w-[400px] space-x-2'>
               <img src={Block} alt="Block" />
               <p>To'lov darhol joyida</p>
             </div>
             {/* 2-div */}
-            <div className='flex items-center space-x-2 py-8'>
+            <div className='flex items-center w-[400px] space-x-2 py-8'>
               <img src={HandTime} alt="Block" />
               <p>Arizalarni qabul qilish 24 soat</p>
             </div>
 
             {/* 3-div */}
-            <div className='flex items-center space-x-2'>
+            <div className='flex items-center w-[400px] space-x-2'>
               <img src={MoneyLight} alt="Block" />
               <p>Onlayn baholash bepul</p>
             </div>
@@ -67,7 +67,7 @@ const ZargarlikBuyumlari = () => {
       <section class="flex justify-center ">
         <div class="flex py-10 space-x-52">
           {/* <!-- 1-div --> */}
-          <div class="flex items-center">
+          <div class="flex items-center w-[400px]">
             <div>
               <img src={Block} alt="Block" />
             </div>
@@ -77,7 +77,7 @@ const ZargarlikBuyumlari = () => {
             </div>
           </div>
           {/* <!-- 2-div --> */}
-          <div class="flex items-center">
+          <div class="flex items-center w-[400px]">
             <div>
               <img src={HandTime} alt="Block" />
             </div>
@@ -87,7 +87,7 @@ const ZargarlikBuyumlari = () => {
             </div>
           </div>
           {/* <!-- 3-div --> */}
-          <div class="flex items-center">
+          <div class="flex items-center w-[400px]">
             <div>
               <img src={MoneyLight} alt="Block" />
             </div>
@@ -138,11 +138,11 @@ const ZargarlikBuyumlari = () => {
         </div>
       </main>
       <section className={`${styles.HeaderContainer}`}>
-        <div>
+        <div >
           <h2 className='text-center pb-5 pt-24 text-3xl'>Biz sotib olishni taklif qilamiz:</h2>
-          <div className='grid grid-cols-3 p-5   justify-center'>
+          <div className='flex flex-wrap justify-center'>
               {/* kard-1 */}
-            <div className='flex items-center bg-gray-100 space-x-5 px-2 '>
+            <div className='flex items-center w-[400px] bg-gray-100 space-x-5 px-2 '>
               <div>
               <img src={RasmIkki} alt="RasmIkki" />
               </div>
@@ -152,7 +152,7 @@ const ZargarlikBuyumlari = () => {
               </div>
             </div>
             {/* kard-2 */}
-            <div className='flex items-center space-x-5 px-3 p-5 '>
+            <div className='flex items-center w-[400px] space-x-5 px-3 p-5 '>
               <div>
               <img src={RasmUch} alt="RasmUch" />
               </div>
@@ -163,7 +163,7 @@ const ZargarlikBuyumlari = () => {
             </div>
 
             {/* kard-3 */}
-            <div className='flex items-center space-x-5 px-3 p-5 bg-gray-200'>
+            <div className='flex items-center w-[400px] space-x-5 px-3 p-5 bg-gray-200'>
               <div>
               <img src={RasmTort} alt="RasmTort" />
               </div>
@@ -174,7 +174,7 @@ const ZargarlikBuyumlari = () => {
             </div>
 
             {/* kard-4 */}
-            <div className='flex items-center space-x-5 px-3 p-5 '>
+            <div className='flex items-center w-[400px] space-x-5 px-3 p-5 '>
               <div>
               <img src={RasmBesh} alt="RasmBesh" />
               </div>
@@ -185,7 +185,7 @@ const ZargarlikBuyumlari = () => {
             </div>
 
             {/* kard-5 */}
-            <div className='flex items-center space-x-5 px-3 p-5 bg-gray-200'>
+            <div className='flex items-center w-[400px] space-x-5 px-3 p-5 bg-gray-200'>
               <div>
               <img src={RasmOlti} alt="RasmOlti" />
               </div>
@@ -196,7 +196,7 @@ const ZargarlikBuyumlari = () => {
             </div>
 
             {/* kard-6 */}
-            <div className='flex items-center space-x-5 px-3 p-5 '>
+            <div className='flex items-center w-[400px] space-x-5 px-3 p-5 '>
               <div>
               <img src={RasmYetti} alt="RasmYetti" />
               </div>
@@ -207,7 +207,7 @@ const ZargarlikBuyumlari = () => {
             </div>
 
             {/* kard-7 */}
-            <div className='flex items-center space-x-5 px-3 p-5 bg-gray-200'>
+            <div className='flex items-center w-[400px] space-x-5 px-3 p-5 bg-gray-200'>
               <div>
               <img src={RasmSakkiz} alt="RasmSakkiz" />
               </div>
@@ -218,7 +218,7 @@ const ZargarlikBuyumlari = () => {
             </div>
 
             {/* kard-8 */}
-            <div className='flex items-center space-x-5 px-3 p-5 '>
+            <div className='flex items-center w-[400px] space-x-5 px-3 p-5 '>
               <div>
               <img src={RasmToqqiz} alt="RasmToqqiz" />
               </div>
@@ -229,7 +229,7 @@ const ZargarlikBuyumlari = () => {
             </div>
 
             {/* kard-9 */}
-            <div className='flex items-center space-x-12 px-3 p-5 bg-gray-200'>
+            <div className='flex items-center w-[400px] space-x-12 px-3 p-5 bg-gray-200'>
               <div>
               <img className='ml-3' src={RasmOn} alt="RasmOn" />
               </div>
@@ -241,7 +241,7 @@ const ZargarlikBuyumlari = () => {
 
 
             {/* kard-10 */}
-            <div className='flex items-center p-5 space-x-5 bg-gray-200  grid-span-3 self-center'>
+            <div className='flex items-center w-[400px] p-5 space-x-5 bg-gray-200  grid-span-3 self-center'>
               <div>
               <img src={RasmOnBir} alt="RasmOnBir" />
               </div>
