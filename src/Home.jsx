@@ -116,7 +116,7 @@ const Home = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper gap-2"
+        className="h-[730px] "
       >
         <SwiperSlide>
           {/* 1-kard */}
