@@ -29,6 +29,17 @@ import {
 
 //image import 
 import kardUchun from "../image/kardUchun.jpg"
+import kardUchunBesh from "../image/kardUchunBesh.png"
+import kardUchunOnBesh from "../image/kardUchunOnBesh.jpg"
+import kardUchunOnIkki from "../image/kardUchunOnIkki.png"
+import kardUchunOnYetti from "../image/kardUchunOnYetti.png"
+import kardUchunOnBir from "../image/kardUchunOnBir.png"
+import kardUchunOnUch from "../image/kardUchunOnUch.png"
+import kardUchunOnTort from "../image/kardUchunOnTort.png"
+import kardUchunTort from "../image/kardUchunTort.png"
+import kardUchunOlti from "../image/kardUchunOlti.webp"
+import kardUchunYetti from "../image/kardUchunYetti.webp"
+
 const Xizmatlar = () => {
   return (
     <>
@@ -56,7 +67,7 @@ const Xizmatlar = () => {
         className="mySwiper mb-10"
       >
         <div>
-          <SwiperSlide className='py-5 mx-28'>
+          <SwiperSlide className='p-5 ml-28'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
@@ -67,12 +78,10 @@ const Xizmatlar = () => {
               </CardHeader>
               <CardBody>
                 <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+                 Ranaldo/Qo'l soati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Xo‘sh, hozirgi davrda soatlar biz uchun qanchalik muhim? Avvalo aytish kerakki soat nafaqat vaqtni ko‘rsatuvchi vosita, balki o‘z egasining alohida bir hislatlarini ifodalovchi aylanib ulgurgan. erkak kishi uchun eng yahshi sovg‘alardan biri hisoblanadi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -80,22 +89,21 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5 mb-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src={kardUchun}
+                className='w-[360px] h-[250px]'
+                  src={kardUchunBesh}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
                 <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -103,22 +111,21 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[352px] h-[250px]'
+                  src={kardUchunOnIkki}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                 Ranaldo/Qo'l soati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Xo‘sh, hozirgi davrda soatlar biz uchun qanchalik muhim? Avvalo aytish kerakki soat nafaqat vaqtni ko‘rsatuvchi vosita, balki o‘z egasining alohida bir hislatlarini ifodalovchi aylanib ulgurgan. erkak kishi uchun eng yahshi sovg‘alardan biri hisoblanadi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -126,22 +133,21 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[350px] h-[223px]'
+                  src={kardUchunOnYetti}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -149,22 +155,21 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[351px] h-[222px]'
+                src={kardUchunOnBir}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                 Ranaldo/Qo'l soati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Xo‘sh, hozirgi davrda soatlar biz uchun qanchalik muhim? Avvalo aytish kerakki soat nafaqat vaqtni ko‘rsatuvchi vosita, balki o‘z egasining alohida bir hislatlarini ifodalovchi aylanib ulgurgan. erkak kishi uchun eng yahshi sovg‘alardan biri hisoblanadi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -172,22 +177,44 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[350px] h-[222px]'
+                  src={kardUchunOnUch}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
+                </Typography>
+
+              </CardBody>
+              <CardFooter className="pt-0">
+                <Button>Read More</Button>
+              </CardFooter>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide className='p-5'>
+            <Card className="mt-6 w-96">
+              <CardHeader color="blue-gray" className="relative h-56">
+                <img
+                className='w-[350px] h-[222px]'
+                  src= {kardUchunOnTort}
+                  alt="card-image"
+                />
+              </CardHeader>
+              <CardBody>
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
+                </Typography>
+                <Typography>
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -195,22 +222,90 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[360px] h-[230px]'
+                  src={kardUchunOnBesh}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
+                </Typography>
+
+              </CardBody>
+              <CardFooter className="pt-0">
+                <Button>Read More</Button>
+              </CardFooter>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide className='p-5'>
+            <Card className="mt-6 w-96">
+              <CardHeader color="blue-gray" className="relative h-56">
+                <img
+                className='w-[350px] h-[222px]'
+                  src= {kardUchunTort}
+                  alt="card-image"
+                />
+              </CardHeader>
+              <CardBody>
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
+                </Typography>
+                <Typography>
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
+                </Typography>
+
+              </CardBody>
+              <CardFooter className="pt-0">
+                <Button>Read More</Button>
+              </CardFooter>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide className='p-5'>
+            <Card className="mt-6 w-96">
+              <CardHeader color="blue-gray" className="relative h-56">
+                <img
+                className='w-[360px] h-[230px]'
+                  src={kardUchunOlti}
+                  alt="card-image"
+                />
+              </CardHeader>
+              <CardBody>
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
+                </Typography>
+                <Typography>
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
+                </Typography>
+
+              </CardBody>
+              <CardFooter className="pt-0">
+                <Button>Read More</Button>
+              </CardFooter>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide className='p-5'>
+            <Card className="mt-6 w-96">
+              <CardHeader color="blue-gray" className="relative h-56">
+                <img
+                className='w-[360px] h-[230px]'
+                  src= {kardUchunYetti}
+                  alt="card-image"
+                />
+              </CardHeader>
+              <CardBody>
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
+                </Typography>
+                <Typography>
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -218,22 +313,44 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[350px] h-[223px]'
+                  src={kardUchunOnYetti}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
+                </Typography>
+
+              </CardBody>
+              <CardFooter className="pt-0">
+                <Button>Read More</Button>
+              </CardFooter>
+            </Card>
+          </SwiperSlide>
+          <SwiperSlide className='p-5'>
+            <Card className="mt-6 w-96">
+              <CardHeader color="blue-gray" className="relative h-56">
+                <img
+                className='w-[351px] h-[222px]'
+                src={kardUchunOnBir}
+                  alt="card-image"
+                />
+              </CardHeader>
+              <CardBody>
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                 Ranaldo/Qo'l soati
+                </Typography>
+                <Typography>
+                Xo‘sh, hozirgi davrda soatlar biz uchun qanchalik muhim? Avvalo aytish kerakki soat nafaqat vaqtni ko‘rsatuvchi vosita, balki o‘z egasining alohida bir hislatlarini ifodalovchi aylanib ulgurgan. erkak kishi uchun eng yahshi sovg‘alardan biri hisoblanadi.
                 </Typography>
               </CardBody>
               <CardFooter className="pt-0">
@@ -241,230 +358,138 @@ const Xizmatlar = () => {
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[350px] h-[222px]'
+                  src={kardUchunOnUch}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
+
               </CardBody>
               <CardFooter className="pt-0">
                 <Button>Read More</Button>
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[350px] h-[222px]'
+                  src= {kardUchunOnTort}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
+
               </CardBody>
               <CardFooter className="pt-0">
                 <Button>Read More</Button>
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[360px] h-[230px]'
+                  src={kardUchunOnBesh}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
+
               </CardBody>
               <CardFooter className="pt-0">
                 <Button>Read More</Button>
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[350px] h-[222px]'
+                  src= {kardUchunTort}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
+
               </CardBody>
               <CardFooter className="pt-0">
                 <Button>Read More</Button>
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[360px] h-[230px]'
+                  src={kardUchunOlti}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
+
               </CardBody>
               <CardFooter className="pt-0">
                 <Button>Read More</Button>
               </CardFooter>
             </Card>
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className='p-5'>
             <Card className="mt-6 w-96">
               <CardHeader color="blue-gray" className="relative h-56">
                 <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
+                className='w-[360px] h-[230px]'
+                  src= {kardUchunYetti}
                   alt="card-image"
                 />
               </CardHeader>
               <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
+              <Typography variant="h5" color="blue-gray" className="mb-2">
+                Bugungi kundagi ahamiyati
                 </Typography>
                 <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
+                Faqatgina 1275 – yilga kelib zamonaviy soatlar davri, Angliyada birinchi mexanik soat ixtiro qilinishi bilan boshlandi. Shu davrdan boshlab to hozirgacha biz ko‘rib turgan soatlar o‘zining eng mukammal ko‘rinishiga, mexanizmiga ega bo‘ldi.
                 </Typography>
-              </CardBody>
-              <CardFooter className="pt-0">
-                <Button>Read More</Button>
-              </CardFooter>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card className="mt-6 w-96">
-              <CardHeader color="blue-gray" className="relative h-56">
-                <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-                  alt="card-image"
-                />
-              </CardHeader>
-              <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
-                </Typography>
-                <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
-                </Typography>
-              </CardBody>
-              <CardFooter className="pt-0">
-                <Button>Read More</Button>
-              </CardFooter>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card className="mt-6 w-96">
-              <CardHeader color="blue-gray" className="relative h-56">
-                <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-                  alt="card-image"
-                />
-              </CardHeader>
-              <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
-                </Typography>
-                <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
-                </Typography>
-              </CardBody>
-              <CardFooter className="pt-0">
-                <Button>Read More</Button>
-              </CardFooter>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card className="mt-6 w-96">
-              <CardHeader color="blue-gray" className="relative h-56">
-                <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-                  alt="card-image"
-                />
-              </CardHeader>
-              <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
-                </Typography>
-                <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
-                </Typography>
-              </CardBody>
-              <CardFooter className="pt-0">
-                <Button>Read More</Button>
-              </CardFooter>
-            </Card>
-          </SwiperSlide>
-          <SwiperSlide>
-            <Card className="mt-6 w-96">
-              <CardHeader color="blue-gray" className="relative h-56">
-                <img
-                  src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80"
-                  alt="card-image"
-                />
-              </CardHeader>
-              <CardBody>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  UI/UX Review Check
-                </Typography>
-                <Typography>
-                  The place is close to Barceloneta Beach and bus stop just 2 min by
-                  walk and near to &quot;Naviglio&quot; where you can enjoy the main
-                  night life in Barcelona.
-                </Typography>
+
               </CardBody>
               <CardFooter className="pt-0">
                 <Button>Read More</Button>

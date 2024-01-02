@@ -82,9 +82,9 @@ const OnlaynBaholash = () => {
       </section>
 
       <main>
+        <div>
         <div className={`${styles.HeaderContainer}`}>
           <div className='text-center'>
-<<<<<<< HEAD
             <span className='text-5xl py-3 inline-block'>Mahsulot uchun pul olish juda oson!</span>
           </div>
           {/* Grid */}
@@ -116,7 +116,7 @@ const OnlaynBaholash = () => {
               <p className='py-2'>Siz kelishilgan miqdorni joyida naqd olasiz. Yoki biz kartaga yoki hisob raqamiga pul o'tkazamiz.</p>
             </li>
           </ul>
-=======
+
           <span className='text-5xl py-3 inline-block'>Mahsulot uchun pul olish juda oson!</span>
         </div>
         {/* Grid */}
@@ -151,7 +151,7 @@ const OnlaynBaholash = () => {
           <div className='flex justify-center mb-4'>
             <img className='w-[370px] mt-[-230px] ' src={Block}/>
           </div>
->>>>>>> 8ab7a903e4f53915ff47552409994e523617cf94
+
         </div>
       </main>
     </>
