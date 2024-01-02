@@ -6,7 +6,7 @@ import AvfzalliklarKardImgOne from "../image/AvfzalliklarKardImg.png"
 import FrameAvfzalliklar from "../image/FrameAvfzalliklar.svg"
 import AvfzalliklarKardImgTwo from "../image/AvfzalliklarKardImgIkki.png"
 import Car from "../image/CarAvfzalliklar.svg"
-import Block from "../image/Block.png"
+import Block from "../image/image-index.jpg"
 import MoneyLightAvfzalliklar from "../image/MoneylightAvfzalliklar.svg"
 import { IndeterminateCheckBox, InstallDesktopSharp } from '@mui/icons-material'
 import BrotherImage from "../image/BrotherImage.png"
@@ -84,6 +84,7 @@ const OnlaynBaholash = () => {
       <main>
         <div className={`${styles.HeaderContainer}`}>
           <div className='text-center'>
+<<<<<<< HEAD
             <span className='text-5xl py-3 inline-block'>Mahsulot uchun pul olish juda oson!</span>
           </div>
           {/* Grid */}
@@ -115,6 +116,42 @@ const OnlaynBaholash = () => {
               <p className='py-2'>Siz kelishilgan miqdorni joyida naqd olasiz. Yoki biz kartaga yoki hisob raqamiga pul o'tkazamiz.</p>
             </li>
           </ul>
+=======
+          <span className='text-5xl py-3 inline-block'>Mahsulot uchun pul olish juda oson!</span>
+        </div>
+        {/* Grid */}
+        <ul className="grid grid-cols-4 gap-4 p-5">
+          <li className='border border-slate-800 backdrop-blur-sm z-[10] p-5 border-black'>
+            {/* card-1 */}
+            <p className='text-6xl'>1</p>
+            <p className='font-medium pt-2 text-2xl'>Ilova</p>
+            <p className='py-5'>Siz veb-saytda ariza to'ldiring yoki bizga qo'ng'iroq qiling</p>
+            <button className='border border-slate-800 backdrop-blur-sm p-5 py-3 px-12 border-black'>Soat bahosini oling</button>
+          </li>
+          {/* card-2 */}
+          <li className='border border-slate-800 backdrop-blur-sm z-[10] p-5 border-black'>
+            <p className='text-6xl'>2</p>
+            <p className='font-medium pt-2 text-2xl'>Baho</p>
+            <p className='py-5'>Biz aksessuarni dastlabki baholashni o'tkazamiz va siz bilan narxni kelishib olamiz</p>
+          </li>
+          {/* card-3 */}
+          <li className='border border-slate-800 backdrop-blur-sm z-[10] p-5  border-black'>
+            <p className='text-6xl'>3</p>
+            <p className='font-medium pt-2 text-2xl'>Oflayn tekshiruv</p>
+            <p className='py-5'>Sizning huzuringizda soat lombardimizda soatni tekshiramiz.
+              Agar kerak bo'lsa, bizning mutaxassisimiz Moskvaga borishi mumkin.</p>
+          </li>
+          {/* card-4 */}
+          <li className='border border-slate-800 backdrop-blur-sm z-[10] p-5  border-black'>
+            <p className='text-6xl'>4</p>
+            <p className='font-medium text-2xl py-2'>Siz pulni naqd yoki o'tkazma yo'li bilan olasiz</p>
+            <p className='py-2'>Siz kelishilgan miqdorni joyida naqd olasiz. Yoki biz kartaga yoki hisob raqamiga pul o'tkazamiz.</p>
+          </li>
+        </ul>
+          <div className='flex justify-center mb-4'>
+            <img className='w-[370px] mt-[-230px] ' src={Block}/>
+          </div>
+>>>>>>> 8ab7a903e4f53915ff47552409994e523617cf94
         </div>
       </main>
     </>

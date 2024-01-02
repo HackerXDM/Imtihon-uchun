@@ -15,6 +15,7 @@ import MoneyLight from "../image/money-light.png"
 import BigHandTimer from "../image/BighandTimer.png"
 import SearchImg from "../image/iconSearch.svg"
 import IconArrow from "../image/iconArrow.svg"
+import phone from "../image/phone.jpg"
 
 //import material tailwind
 import Breadcrumbs from '@mui/material/Breadcrumbs';
@@ -178,6 +179,9 @@ const KompaniyaHaqida = () => {
             <p className='py-2'>Siz kelishilgan miqdorni joyida naqd olasiz. Yoki biz kartaga yoki hisob raqamiga pul o'tkazamiz.</p>
           </li>
         </ul>
+        <div className='flex justify-center mb-4'>
+            <img className='w-[370px] mt-[-230px] ' src={phone}/>
+          </div>
         {/* BigImage */}
         <div className="image">
           <img src={BigHandTimer} alt="TimerImage" />
