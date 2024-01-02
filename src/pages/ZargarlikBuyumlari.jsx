@@ -67,7 +67,7 @@ const ZargarlikBuyumlari = () => {
       <section class="flex justify-center ">
         <div class="flex py-10 space-x-52">
           {/* <!-- 1-div --> */}
-          <div class="flex items-center w-[400px]">
+          <div class="flex items-center ml-40 space-x-5">
             <div>
               <img src={Block} alt="Block" />
             </div>
@@ -77,7 +77,7 @@ const ZargarlikBuyumlari = () => {
             </div>
           </div>
           {/* <!-- 2-div --> */}
-          <div class="flex items-center w-[400px]">
+          <div class="flex items-center  justify-center space-x-5">
             <div>
               <img src={HandTime} alt="Block" />
             </div>
@@ -87,7 +87,7 @@ const ZargarlikBuyumlari = () => {
             </div>
           </div>
           {/* <!-- 3-div --> */}
-          <div class="flex items-center w-[400px]">
+          <div class="flex items-center w-[400px] space-x-5">
             <div>
               <img src={MoneyLight} alt="Block" />
             </div>

@@ -91,22 +91,21 @@ const Sotish = () => {
       </section>
 
       <main>
-     <div>
-     <div className='flex items-center space-x-10'>
-          <div>
-            <img src={Soat} alt="Christian" style={{ width: '500px', height: '600px' }} />
-          </div>
-          <div className='px-10'>
-            <h3 className='text-3xl'>Original sotib olish</h3>
-            <h3 className='text-3xl py-2'>markali sumkalar</h3>
-            <p className='w-[500px] font-serif'>Agar siz qimmatbaho sumka yoki ryukzak egasi bo'lsangiz va uni tez va maksimal narxda sotmoqchimisiz? Endi vaqtni behuda sarflash va xaridorlarni o'zingiz qidirishingiz shart emas, biz sizdan Yevropa yoki Amerikada ishlab chiqarilgan elita charm sumkani 1 soat ichida sotib olishga tayyormiz!
-              Bizni FAQAT 100 000 rubldan bo'lgan qimmatbaho sumkalar qiziqtiradi. va undan yuqori.
-              Aksessuarlaringizni nima uchun sotayotganingiz, shuningdek, uni sotib olish tarixi biz uchun muhim emas.
-              Timer sumkasi lombardi premium brendlardan ayollar va erkaklar sumkalari, debriyajlar va portfellarni sotib olishga ixtisoslashgan.
-              Siz sumkani tezda sotishingiz mumkin, yangi mahsulotning 90% gacha bo'lgan narxda</p>
+        <div>
+          <div className='flex items-center space-x-10'>
+            <div className='w-[500px] h-[600px] bg-gray-200'>
+              <img src={Soat} alt="Christian" />
+            </div>
+            <div className='px-10'>
+              <h3 className='text-3xl'>Soat sotib olish</h3>
+              <p className='w-[500px] font-serif pb-8 pt-2'>Biz 85 million rublgacha to'laymiz. ariza berilgan kuni.
+                Shveytsariyalik soatingizni yuqori narxda sotmoqchimisiz, lekin eng yuqori narxni qaerdan olishni bilmayapsizmi?
+                Timer soatlar saloni Moskva va Moskva viloyatida hashamatli qo'l soatlarini sotib oladi. Biz mashhur brendlarning yangi va ishlatilgan original soatlarini qabul qilamiz. Biz sizning huzuringizda onlayn yoki tomosha markazida baho beramiz.
+                Baholash uchun onlayn arizalarni qabul qilish - kuniga 24 soat.</p>
+              <button className='border-black py-2 px-10 border '>Baholash uchun soatingizni yuboring</button>
+            </div>
           </div>
         </div>
-     </div>
       </main>
     </>
   )

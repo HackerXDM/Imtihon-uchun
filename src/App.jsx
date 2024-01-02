@@ -24,6 +24,7 @@ import Telefon from "./pages/Telefon"
 import ZargarlikBuyumlari from "./pages/ZargarlikBuyumlari"
 import ShveytsariyaSoatlari from './pages/ShveytsariyaSoatlari'
 import Index from './Home'
+import Error from "./pages/Error"
 
 
 const App = () => {
@@ -44,6 +45,7 @@ const App = () => {
         <Route path='/sotish/telefon' element={<Telefon/>} />
         <Route path='/sotish/zargarlik_buyumlari' element={<ZargarlikBuyumlari/>} />
         <Route path='/sotish/shveytsariya_soatlari/Brendni_sotib_olish' element={<ShveytsariyaSoatlari/>} />
+        <Route path='*' element={<Error/>} />
       </Route>
     )
   )
