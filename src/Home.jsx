@@ -5,6 +5,18 @@ import IconArrow from "./image/iconArrow.svg"
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+
+import '../styles.css';
+import { styles } from "../styles"
+
+// import required modules
+import { Navigation } from 'swiper/modules';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
@@ -108,15 +120,174 @@ const Home = () => {
         </div>
       </header>
 
+     
+      
+      {/* Hero   */}
+      <div className="hero">
+        <div className={`${styles.HeaderContainer}`}>
+          <div className='text-center'>
+            <h2 className='font-semibold text-4xl pt-16 py-5'>Tovarlar mavjud</h2>
+          </div>
+          <ul className='flex items-center justify-center gap-3 bg-white-300'>
+            <li className='w-[30%] h-[200px] bg-[#F5F3F4] overflow-hidden'>
+              <div className="flex flex-col  items-center p-3">
+                <span>Tomosha qiling</span>
+                <img className="w-[90%] h-[90%]" src={SoatSectionBirinchiPage} alt="Timer" />
+              </div>
+            </li>
+            <li className='w-[30%] h-[200px] bg-[#F5F3F4] overflow-hidden'>
+              <div className="flex flex-col items-center p-3">
+                <span>Aksessuarlar</span>
+                <img className="w-[90%] h-[90%]" src={SumkaSectionBirinchiPage} alt="BagImg" />
+              </div>
+            </li>
+            <li className='w-[30%] h-[200px] bg-[#F5F3F4] overflow-hidden'>
+              <div className="flex flex-col items-center p-3">
+                <span>Dekoratsiyalar</span>
+                <img className="w-[90%] h-[90%]" src={Image1SectionBirinchiPage} alt="jewelry" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Section */}
+      <div className={`${styles.HeaderContainer}`}>
+        <ul>
+          <div className="flex items-center justify-between py-5 pt-20">
+            <li className='w-full flex justify-center items-center'>
+              <img src={TimerImg} alt="Timer.logo" style={{ width: '200px', height: '100px' }} />
+            </li>
+          </div>
+          <li className='w-[70%] text-center ml-[15%] leading-6 font-serif pb-16 ' style={{ letterSpacing: '2px' }}>
+            <span>Sifatli markali zargarlik buyumlarini
+              sotib olishingiz yoki sotishingiz, shuningdek,  soatlar yoki
+              zargarlik buyumlari uchun kredit olishingiz mumkin bo'lgan joy.</span>
+          </li>
+          <div className="flex items-center justify-between pb-5">
+            <li className='w-full flex justify-center items-center'>
+              <span className='font-semibold text-4xl'>SEO matni - Soat sotib olish</span>
+            </li>
+          </div>
+          <li className='w-[70%] text-center ml-[15%] leading-6 font-serif pb-16 ' style={{ letterSpacing: '2px' }}>
+            <span>Soat sotib olish haqida matn so'm dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis disparturient Montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
+              felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</span>
+          </li>
+        </ul>
+
+
+        {/* Grid */}
+        <ul className="grid grid-cols-3  p-5 leading-6 font-serif">
+          {/* card-1 */}
+          <li>
+            <div>
+              <img src={GreenTime} alt="ImageTime" />
+            </div>
+          </li>
+          {/* card-2 */}
+          <li className='text-center pt-5 p-3'>
+            <img className='ml-[45%] py-5' src={HandTime} alt="HandTime" />
+            <span className=' text-3xl font-mono'>Yuqori to'lov narxlari</span>
+            <br />
+            <span className='text-base '>Siz yangi soat narxining 90% gacha olasiz.
+              Biz darhol naqd pul to'laymiz</span>
+          </li>
+          {/* card-3 */}
+          <li>
+            <img src={TimerHand} alt="TimerHand" />
+          </li>
+          {/* card-4 */}
+          <li className='text-center'>
+            <img className='ml-[45%] pt-10' src={Block} alt="BlockImage" />
+            <span className='text-3xl font-mono py-4 inline-block'>Maxfiylik</span>
+            <br />
+            <span>Chronoland-dagi barcha tranzaktsiyalar anonim ekanligiga
+              amin bo'lishingiz mumkin. Biz barcha tranzaksiya ma'lumotlarining
+              to'liq xavfsizligini kafolatlaymiz</span>
+          </li>
+          {/* card-5 */}
+          <li className='text-center py-10 bg-black text-white '>
+            <span className='text-2xl'>Bilan ishlaymiz<br /> brendlari</span>
+            <br />
+            <span className='py-4 inline-block'>ROLEX, AUDEMARS PIGUET, PATEKPHILLIPE,
+              A.LANGE & SOHNE,BLANCPAIN, BREGUET, CARTIER,CHOPARD,
+              CORUM, FRANCK MULLER,GIRARD PERREGAUX, GRAHAM, IWC,JAEGER-LECOULTRE,
+              RICHARD MILLE,VACHERON CONSTANTIN, HUBLOT,GREUBEL FORSEY</span>
+            <br />
+            <span className='underline underline-offset-4'>Hammasini ko'rish</span>
+          </li>
+          {/* card-6 */}
+          <li className='text-center py-10'>
+            <img className='ml-[45%] pb-5' src={MoneyLight} alt="BlockImage" />
+            <span className='text-3xl'>Pull allaqachon berilgan <br /> qo`llashdan 2soat avval</span>
+            <br />
+            <p className='pt-2'>Atigi 5 daqiqadan so'ng biz bepul baholashni o'tkazamiz va sizga oladigan narxni aytamiz.</p>
+            <br />
+            <p>Biz ko'plab hujjatlarni to'ldirishimiz va tasdiqlovchi hujjatlarni taqdim etishimiz kerak</p>
+          </li>
+        </ul>
+      </div>
+
+      <div className={`${styles.container}`}>
+        <Swiper navigation={true} modules={[Navigation]} className="mySwiper my-10 flex justify-center text-center py-3">
+          <SwiperSlide>
+            <h1 className='text-4xl font-serif' style={{ letterSpacing: '2px' }}>Biz brendlarni sotib olamiz</h1>
+            <p className='py-5 w-[700px] font-serif text-lg ml-[20%] tracking-normal'  style={{ letterSpacing: '2px' }}>
+              Rolex Aerowatch A.Lange & Sohne  Alpina Apple Watch Armand Nicolet  Armin Strom Arnold & Son Artya Audemars Piguet Ball Baume Mercier Bell Ross Blancpain
+            </p>
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <h1 className='text-4xl font-serif' style={{ letterSpacing: '2px' }}>Brend nima?</h1>
+            <p className='py-5 w-[1000px] font-serif text-lg ml-[10%] tracking-normal'  style={{ letterSpacing: '2px' }}>
+            Brend (ing. Brand) — tamg‘a, belgi. Brend juda katta narsa uni oddiygina qilib ta’riflab bo‘lmaydi. Brend faqat logotip emas. Brend bu kompaniya strategiyasi, hodimlari, narx siyosati, raqobatchilardan farqlanishi, kuchli taraflari, iste’molchilar uchun yaratilgan o‘ziga xos qiymatlar va oxirida nom va logotip. Brendni ishlab chiqishdan asosiy maqsad, doimiy mijozlarga ega bo‘lish, bozorda sezilarli farqni va qiymatni hosil qilish hisoblanadi.
+            </p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1 className='text-4xl font-serif' style={{ letterSpacing: '2px' }}>Dizayn nima?</h1>
+            <p className='py-5 w-[800px] font-serif text-lg ml-[18%] tracking-normal'  style={{ letterSpacing: '2px' }}>
+            Brendga dizayner ko‘zi bilan qaralsa, o‘ziga xos yangi bir dunyoni ko‘ramiz.
+Brend — bu kompaniya nomi, slogani, logosi, ranglari, simvollari, stili va boshqa vizual atributlari hisoblanadi.
+            </p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1 className='text-4xl font-serif' style={{ letterSpacing: '2px' }}>Rebrending nima?</h1>
+            <p className='py-5 w-[800px] font-serif text-lg ml-[18%] tracking-normal'  style={{ letterSpacing: '2px' }}>
+            Rebrending (ing. Rebranding) — brendni o‘zgartirish deganidir. Rebranding deganda ko‘pchilik shunchaki logotip o‘zgarishini tushinishi mumkin. Ammo rebranding bu butun tizimning o‘zgarishidir, logotip yangilangani esa, shunchaki o‘zgarishlar haqida ma’lumot berishday gap.
+            </p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1 className='text-4xl font-serif' style={{ letterSpacing: '2px' }}>Stil nima?</h1>
+            <p className='py-5 w-[800px] font-serif text-lg ml-[18%] tracking-normal'  style={{ letterSpacing: '2px' }}>
+            Stil (ing. Style) — uslub, usul, odat, farqlanuvchi yo‘nalish. Stil boshqalardan ajratib turuvchi asosiy omil hisoblanadi. Stil ham brend kabi katta tushuncha. Biz faqat uning dizaynga bog‘liq qismini gapirib o‘tamiz. Dizaynda stilning vazifasi, brendga tegishli vizual atributlarni o‘ziga xos uslubda, stilda bo‘lishi va ularning boshqalardan farqlanuvchi tarzda qo‘llanilishi hisoblanadi.
+            </p>
+          </SwiperSlide>
+          <SwiperSlide>
+            <h1 className='text-4xl font-serif' style={{ letterSpacing: '2px' }}>Restaylingchi? U nima?</h1>
+            <p className='py-5 w-[800px] font-serif text-lg ml-[18%] tracking-normal'  style={{ letterSpacing: '2px' }}>
+            Restayling (ingl. — Restyling) vizual darajadagi elementlarni o‘zgartirish bilan kifoyalanadi. Agar kompaniyangizda hech nima o‘zgarmasa, ammo siz kompaniyaning logotipi va vizual atributlari ma’nan eskirganini his etsangiz, unda restayling qo‘llash mumkin.
+            </p>
+          </SwiperSlide>
+        </Swiper>
+      </div>
+
+<div className="bg-gray-100">
+<div className={`${styles.container}`}>
+  <div className="flex items-center justify-between py-5">
+<div>
+  <h2 className="ml-5 text-3xl font-serif">Sotib olingan soatlarga misollar</h2>
+</div>
+<button className="mr-5 border border-black py-3 px-3">Hammasini ko`rish</button>
+  </div>
       <Swiper
         slidesPerView={3}
-        spaceBetween={30}
+        spaceBetween={20}
         freeMode={true}
         pagination={{
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="h-[730px] "
+        className="h-[730px]"
       >
         <SwiperSlide>
           {/* 1-kard */}
@@ -1460,112 +1631,8 @@ const Home = () => {
           </Card>
         </SwiperSlide>
       </Swiper>
-      
-      {/* Hero   */}
-      <div className="hero">
-        <div className={`${styles.HeaderContainer}`}>
-          <div className='text-center'>
-            <h2 className='font-semibold text-4xl pt-16 py-5'>Tovarlar mavjud</h2>
-          </div>
-          <ul className='flex items-center justify-center gap-3 bg-white-300'>
-            <li className='w-[30%] h-[200px] bg-[#F5F3F4] overflow-hidden'>
-              <div className="flex flex-col  items-center p-3">
-                <span>Tomosha qiling</span>
-                <img className="w-[90%] h-[90%]" src={SoatSectionBirinchiPage} alt="Timer" />
-              </div>
-            </li>
-            <li className='w-[30%] h-[200px] bg-[#F5F3F4] overflow-hidden'>
-              <div className="flex flex-col items-center p-3">
-                <span>Aksessuarlar</span>
-                <img className="w-[90%] h-[90%]" src={SumkaSectionBirinchiPage} alt="BagImg" />
-              </div>
-            </li>
-            <li className='w-[30%] h-[200px] bg-[#F5F3F4] overflow-hidden'>
-              <div className="flex flex-col items-center p-3">
-                <span>Dekoratsiyalar</span>
-                <img className="w-[90%] h-[90%]" src={Image1SectionBirinchiPage} alt="jewelry" />
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      {/* Section */}
-      <div className={`${styles.HeaderContainer}`}>
-        <ul>
-          <div className="flex items-center justify-between py-5 pt-20">
-            <li className='w-full flex justify-center items-center'>
-              <img src={TimerImg} alt="Timer.logo" style={{ width: '200px', height: '100px' }} />
-            </li>
-          </div>
-          <li className='w-[70%] text-center ml-[15%] leading-6 font-serif pb-16 ' style={{ letterSpacing: '2px' }}>
-            <span>Sifatli markali zargarlik buyumlarini
-              sotib olishingiz yoki sotishingiz, shuningdek,  soatlar yoki
-              zargarlik buyumlari uchun kredit olishingiz mumkin bo'lgan joy.</span>
-          </li>
-          <div className="flex items-center justify-between pb-5">
-            <li className='w-full flex justify-center items-center'>
-              <span className='font-semibold text-4xl'>SEO matni - Soat sotib olish</span>
-            </li>
-          </div>
-          <li className='w-[70%] text-center ml-[15%] leading-6 font-serif pb-16 ' style={{ letterSpacing: '2px' }}>
-            <span>Soat sotib olish haqida matn so'm dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis disparturient Montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate,
-              felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.</span>
-          </li>
-        </ul>
-
-
-        {/* Grid */}
-        <ul className="grid grid-cols-3  p-5 leading-6 font-serif">
-          {/* card-1 */}
-          <li>
-            <div>
-              <img src={GreenTime} alt="ImageTime" />
-            </div>
-          </li>
-          {/* card-2 */}
-          <li className='text-center pt-5 p-3'>
-            <img className='ml-[45%] py-5' src={HandTime} alt="HandTime" />
-            <span className=' text-3xl font-mono'>Yuqori to'lov narxlari</span>
-            <br />
-            <span className='text-base '>Siz yangi soat narxining 90% gacha olasiz.
-              Biz darhol naqd pul to'laymiz</span>
-          </li>
-          {/* card-3 */}
-          <li>
-            <img src={TimerHand} alt="TimerHand" />
-          </li>
-          {/* card-4 */}
-          <li className='text-center'>
-            <img className='ml-[45%] pt-10' src={Block} alt="BlockImage" />
-            <span className='text-3xl font-mono py-4 inline-block'>Maxfiylik</span>
-            <br />
-            <span>Chronoland-dagi barcha tranzaktsiyalar anonim ekanligiga
-              amin bo'lishingiz mumkin. Biz barcha tranzaksiya ma'lumotlarining
-              to'liq xavfsizligini kafolatlaymiz</span>
-          </li>
-          {/* card-5 */}
-          <li className='text-center py-10 bg-black text-white '>
-            <span className='text-2xl'>Bilan ishlaymiz<br /> brendlari</span>
-            <br />
-            <span className='py-4 inline-block'>ROLEX, AUDEMARS PIGUET, PATEKPHILLIPE,
-              A.LANGE & SOHNE,BLANCPAIN, BREGUET, CARTIER,CHOPARD,
-              CORUM, FRANCK MULLER,GIRARD PERREGAUX, GRAHAM, IWC,JAEGER-LECOULTRE,
-              RICHARD MILLE,VACHERON CONSTANTIN, HUBLOT,GREUBEL FORSEY</span>
-            <br />
-            <span className='underline underline-offset-4'>Hammasini ko'rish</span>
-          </li>
-          {/* card-6 */}
-          <li className='text-center py-10'>
-            <img className='ml-[45%] pb-5' src={MoneyLight} alt="BlockImage" />
-            <span className='text-3xl'>Pull allaqachon berilgan <br /> qo`llashdan 2soat avval</span>
-            <br />
-            <p className='pt-2'>Atigi 5 daqiqadan so'ng biz bepul baholashni o'tkazamiz va sizga oladigan narxni aytamiz.</p>
-            <br />
-            <p>Biz ko'plab hujjatlarni to'ldirishimiz va tasdiqlovchi hujjatlarni taqdim etishimiz kerak</p>
-          </li>
-        </ul>
-      </div>
+</div>
+</div>
 
       <main className={`${styles.HeaderContainer}`}>
         <div className='text-center'>

@@ -15,7 +15,7 @@ import MoneyLight from "../image/money-light.png"
 import BigHandTimer from "../image/BighandTimer.png"
 import SearchImg from "../image/iconSearch.svg"
 import IconArrow from "../image/iconArrow.svg"
-import phone from "../image/phone.jpg"
+import phone from "../image/phone.png"
 
 //import material tailwind
 import Breadcrumbs from '@mui/material/Breadcrumbs';
