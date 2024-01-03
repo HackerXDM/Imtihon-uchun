@@ -25,7 +25,7 @@ import DataIcon from "../image/Vektor.png"
         id: 1,
         kompany: "Versace",
         name: "2023 unworn Datejust 41mm",
-        number: "$17,215",
+        number: "17,215",
         Image: DataBirWatch,
         icon: DataIcon,
         Brend:"Brend",
@@ -42,7 +42,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "AUDEMARS PIGUET",
         name: "Royal Oak",
-        number: "$ 18,390",
+        number: " 18,390",
         id: 2,
         Image: DataIkkiWatch,
         icon: DataIcon,
@@ -60,7 +60,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "VersaceT",
         name: "V-Code 42mm",
-        number: "$933",
+        number: "933",
         id: 3,
         Image: DataUchWatch,
         icon: DataIcon,
@@ -78,7 +78,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Omega",
         name: "unworn Seamaster Co-Axial 42mm",
-        number: "$4,703",
+        number: "4,703",
         id: 4,
         Image: DataTortWatch,
         icon: DataIcon,
@@ -96,7 +96,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Frederique Constant",
         name: "Highlife Chronograph Automatic 39mm",
-        number: "$4,446",
+        number: "4,446",
         id: 5,
         Image: DataBeshWatch,
         icon: DataIcon,
@@ -114,7 +114,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Rolex",
         name: "2023 unworn Datejust 31mm",
-        number: "$19,159",
+        number: "19,159",
         id: 6,
         Image: DataOltiWatch,
         icon: DataIcon,
@@ -132,7 +132,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Rolex",
         name: "2023 unworn Sea-Dweller Deepsea 44mm",
-        number: "$20,273",
+        number: "20,273",
         id: 7,
         Image: DataYettiWatch,
         icon: DataIcon,
@@ -150,7 +150,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Hublot",
         name: "Big Bang Unico 44mm",
-        number: "$17,429",
+        number: "17,429",
         id: 8,
         Image: DataSakkizWatch,
         icon: DataIcon,
@@ -168,7 +168,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Omega",
         name: "2023 unworn Seamaster Planet Ocean 600M 45.5mm",
-        number: "$7,657",
+        number: "7,657",
         id: 9,
         Image: DataToqqizWatch,
         icon: DataIcon,
@@ -186,7 +186,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Cartier",
         name: "2023 unworn Santos 35mm",
-        number: "$7,002",
+        number: "7,002",
         id: 10,
         Image: DataOnWatch,
         icon: DataIcon,
@@ -204,7 +204,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Maurice Lacroix",
         name: "Rétrograde watch",
-        number: "$7,246",
+        number: "7,246",
         id: 11,
         Image: DataOnBirWatch,
         icon: DataIcon,
@@ -221,7 +221,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Locman Italy",
         name: "Montecristo 43mm",
-        number: "$5,541",
+        number: "5,541",
         id: 12,
         Image: DataOnIkkiWatch,
         icon: DataIcon,
@@ -239,7 +239,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Versace",
         name: "2023 unworn Datejust 41mm",
-        number: "$17,215",
+        number: "17,215",
         id: 13,
         Image: DataOnUchWatch,
         icon: DataIcon,
@@ -256,7 +256,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "AUDEMARS PIGUET",
         name: "Royal Oak",
-        number: "$ 18,390",
+        number: " 18,390",
         id: 14,
         Image: DataOnTortWatch,
         icon: DataIcon,
@@ -273,7 +273,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Versace",
         name: "V-Code 42mm",
-        number: "$933",
+        number: "933",
         id: 15,
         Image: DataOnBeshWatch,
         icon: DataIcon,
@@ -290,7 +290,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Omega",
         name: "unworn Seamaster Co-Axial 42mm",
-        number: "$4,703",
+        number: "4,703",
         id: 16,
         Image: DataOnOltiWatch,
         icon: DataIcon,
@@ -307,7 +307,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Frederique Constant",
         name: "Highlife Chronograph Automatic 39mm",
-        number: "$4,446",
+        number: "4,446",
         id: 17,
         Image: DataOnYettiWatch,
         icon: DataIcon,
@@ -324,7 +324,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Rolex",
         name: "2023 unworn Datejust 31mm",
-        number: "$19,159",
+        number: "19,159",
         id: 18,
         Image: DataOnSakkizWatch,
         icon: DataIcon,
@@ -341,7 +341,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Rolex",
         name: "2023 unworn Sea-Dweller Deepsea 44mm",
-        number: "$20,273",
+        number: "20,273",
         id: 19,
         Image: DataOnToqqizWatch,
         icon: DataIcon,
@@ -358,7 +358,7 @@ import DataIcon from "../image/Vektor.png"
     {
         kompany: "Hublot",
         name: "Big Bang Unico 44mm",
-        number: "$17,429",
+        number: "17,429",
         id: 20,
         Image: DataYigirmaWatch,
         icon: DataIcon,
