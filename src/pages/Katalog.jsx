@@ -57,6 +57,11 @@ const Katalog = () => {
               <MenuItem value="">All</MenuItem>
               <MenuItem value="933">933</MenuItem>
               <MenuItem value="4,703">4,703</MenuItem>
+              <MenuItem value="4,703">4,446</MenuItem>
+              <MenuItem value="4,703">19,159</MenuItem>
+              <MenuItem value="4,703">20,273</MenuItem>
+              <MenuItem value="4,703">17,429</MenuItem>
+              <MenuItem value="4,703">5,541</MenuItem>
               {/* Add other Number options based on your data */}
             </Select>
           </FormControl>
@@ -73,6 +78,9 @@ const Katalog = () => {
               <MenuItem value="">All</MenuItem>
               <MenuItem value="Versace">Versace</MenuItem>
               <MenuItem value="Omega">Omega</MenuItem>
+              <MenuItem value="AUDEMARS PIGUET">AUDEMARS PIGUET</MenuItem>
+              <MenuItem value="Maurice Lacroix">Maurice Lacroix</MenuItem>
+              <MenuItem value="Locman Italy">Locman Italy</MenuItem>
               {/* Add other Kompany options based on your data */}
             </Select>
           </FormControl>
@@ -118,6 +126,8 @@ const Katalog = () => {
             >
               <MenuItem value="">All</MenuItem>
               <MenuItem value="V-Code 42mm">V-Code 42mm</MenuItem>
+              <MenuItem value="2023 unworn Datejust 41mm">2023 unworn Datejust 41mm</MenuItem>
+              <MenuItem value="Royal Oak">Royal Oak</MenuItem>
               {/* Add other Name options based on your data */}
             </Select>
           </FormControl>

@@ -160,27 +160,27 @@ const KompaniyaHaqida = () => {
             <button className='border-2 border-slate-800 p-5 py-3 border-black px-12'>Soat bahosini oling</button>
           </li>
           {/* card-2 */}
-          <li className='border-2 border-black border-slate-800 p-5 '>
+          <li className='border-2 border-black backdrop-blur-[2px]	 border-slate-800 p-5 '>
             <p className='text-6xl'>2</p>
             <p className='font-medium pt-2 text-2xl'>Baho</p>
             <p className='py-5'>Biz aksessuarni dastlabki baholashni o'tkazamiz va siz bilan narxni kelishib olamiz</p>
           </li>
           {/* card-3 */}
-          <li className='border-2 border-black border-slate-800 p-5 '>
+          <li className='border-2 border-black backdrop-blur-[2px]	 border-slate-800 p-5 '>
             <p className='text-6xl'>3</p>
             <p className='font-medium pt-2 text-2xl'>Oflayn tekshiruv</p>
             <p className='py-5'>Sizning huzuringizda soat lombardimizda soatni tekshiramiz.
               Agar kerak bo'lsa, bizning mutaxassisimiz Moskvaga borishi mumkin.</p>
           </li>
           {/* card-4 */}
-          <li className='border-2 border-black border-slate-800 p-5 '>
+          <li className='border-2 border-black backdrop-blur-[2px]	 border-slate-800 p-5 '>
             <p className='text-6xl'>4</p>
             <p className='font-medium text-2xl py-2'>Siz pulni naqd yoki o'tkazma yo'li bilan olasiz</p>
             <p className='py-2'>Siz kelishilgan miqdorni joyida naqd olasiz. Yoki biz kartaga yoki hisob raqamiga pul o'tkazamiz.</p>
           </li>
         </ul>
         <div className='flex justify-center mb-4'>
-            <img className='w-[370px] mt-[-230px] ' src={phone}/>
+            <img className='w-[320px] mt-[-130px] ' src={phone}/>
           </div>
         {/* BigImage */}
         <div className="image">
