@@ -12,6 +12,7 @@ import 'swiper/css';
 import 'swiper/css/free-mode';
 import 'swiper/css/pagination';
 
+import {styles} from'./styles';
 import './styles.css';
 
 import { FreeMode, Pagination } from 'swiper/modules';

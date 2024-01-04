@@ -57,11 +57,11 @@ const Katalog = () => {
               <MenuItem value="">All</MenuItem>
               <MenuItem value="933">933</MenuItem>
               <MenuItem value="4,703">4,703</MenuItem>
-              <MenuItem value="4,703">4,446</MenuItem>
-              <MenuItem value="4,703">19,159</MenuItem>
-              <MenuItem value="4,703">20,273</MenuItem>
-              <MenuItem value="4,703">17,429</MenuItem>
-              <MenuItem value="4,703">5,541</MenuItem>
+              <MenuItem value="4,446">4,446</MenuItem>
+              <MenuItem value="19,159">19,159</MenuItem>
+              <MenuItem value="20,273">20,273</MenuItem>
+              <MenuItem value="17,429">17,429</MenuItem>
+              <MenuItem value="5,541">5,541</MenuItem>
               {/* Add other Number options based on your data */}
             </Select>
           </FormControl>
@@ -86,7 +86,7 @@ const Katalog = () => {
           </FormControl>
 
           <FormControl variant="outlined" className="my-4 w-[230px]">
-            <InputLabel id="ayollar-filter-label">Ayollar</InputLabel>
+            <InputLabel id="ayollar-filter-label">Erkaklar</InputLabel>
             <Select
               labelId="ayollar-filter-label"
               id="ayollar-filter"
@@ -95,6 +95,7 @@ const Katalog = () => {
               label="Ayollar"
             >
               <MenuItem value="">All</MenuItem>
+              <MenuItem value="Ayollar">Erkaklar</MenuItem>
               <MenuItem value="Ayollar">Ayollar</MenuItem>
               {/* Add other Ayollar options based on your data */}
             </Select>
@@ -110,7 +111,11 @@ const Katalog = () => {
               label="Davlat"
             >
               <MenuItem value="">All</MenuItem>
-              <MenuItem value="Davlat">Davlat</MenuItem>
+              <MenuItem value="Davlat">Amerika</MenuItem>
+              <MenuItem value="Davlat">Canada</MenuItem>
+              <MenuItem value="Davlat">Meksika</MenuItem>
+              <MenuItem value="Davlat">Dubai</MenuItem>
+              <MenuItem value="Davlat">Turkiya</MenuItem>
               {/* Add other Davlat options based on your data */}
             </Select>
           </FormControl>
